@@ -15,6 +15,7 @@ export const RandomBg = () => {
     for (let i = 0; i < 6; i++) {
       hexcode += hex[randomNum(hex.length)];
     }
+
     setColor(hexcode);
   }
 
@@ -37,10 +38,9 @@ export const RandomBg = () => {
 
         justifyContent: "",
 
-        minHeight: "100vh",
+        minHeight: "50vh",
 
         padding: "10px",
-        width: "50%",
       }}
     >
       <div className="flex justify-center">
