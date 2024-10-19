@@ -5,6 +5,7 @@ import "./App.css";
 import { Accordian } from "./accordian/Accordian";
 import { RandomBg } from "./RandomBg/randomBg";
 import Star from "./starRating/Star";
+import Imageslider from "./imageslider/Imageslider";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Accordian />
       <RandomBg />
       <Star />
+      <Imageslider />
     </>
   );
 }
