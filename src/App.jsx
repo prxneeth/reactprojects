@@ -6,14 +6,16 @@ import { Accordian } from "./accordian/Accordian";
 import { RandomBg } from "./RandomBg/randomBg";
 import Star from "./starRating/Star";
 import Imageslider from "./imageslider/Imageslider";
+import LoadProds from "./loadproducts/LoadProds";
 
 function App() {
   return (
     <>
-      <Accordian />
+      {/* <Accordian />
       <RandomBg />
       <Star />
-      <Imageslider />
+      <Imageslider /> */}
+      <LoadProds />
     </>
   );
 }
