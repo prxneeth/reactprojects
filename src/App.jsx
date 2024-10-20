@@ -11,6 +11,8 @@ import LoadProds from "./loadproducts/LoadProds";
 import Menu from "./menuTree/menu";
 import menus from "./menuTree/data";
 import QRgenerator from "./qrcode/QRgenerator";
+import Darkmode from "./darkMode/Darkmode";
+import IndicatorScroll from "./scroll_Indicator/IndicatorScroll";
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
       <Imageslider />
       <LoadProds /> */}
       {/* <Menu menus={menus} /> */}
-      <QRgenerator />
+      {/* <QRgenerator /> */}
+      {/* <Darkmode /> */}
+      <IndicatorScroll urll={"https://dummyjson.com/products?limit=100"} />
     </>
   );
 }
