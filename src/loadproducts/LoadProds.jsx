@@ -6,8 +6,8 @@ const LoadProds = () => {
 
   useEffect(() => {
     fetch(
-      `https://dummyjson.com/products?limit=20&skip=${
-        count === 0 ? 0 : count * 20
+      `https://dummyjson.com/products?limit=10&skip=${
+        count === 0 ? 0 : count * 10
       }`
     )
       .then((res) => res.json())
@@ -35,7 +35,7 @@ const LoadProds = () => {
       <div className="flex justify-center p-4">
         {" "}
         <button
-          disabled={products.length === 100 ? true : false}
+          disabled={products.length === 40 ? true : false}
           onClick={() => setCount(count + 1)}
           className=""
         >

@@ -8,14 +8,20 @@ import Star from "./starRating/Star";
 import Imageslider from "./imageslider/Imageslider";
 import LoadProds from "./loadproducts/LoadProds";
 
+import Menu from "./menuTree/menu";
+import menus from "./menuTree/data";
+import QRgenerator from "./accordian/qrcode/QRgenerator";
+
 function App() {
   return (
     <>
       {/* <Accordian />
       <RandomBg />
       <Star />
-      <Imageslider /> */}
-      <LoadProds />
+      <Imageslider />
+      <LoadProds /> */}
+      {/* <Menu menus={menus} /> */}
+      <QRgenerator />
     </>
   );
 }
