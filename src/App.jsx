@@ -10,7 +10,7 @@ import LoadProds from "./loadproducts/LoadProds";
 
 import Menu from "./menuTree/menu";
 import menus from "./menuTree/data";
-import QRgenerator from "./accordian/qrcode/QRgenerator";
+import QRgenerator from "./qrcode/QRgenerator";
 
 function App() {
   return (
