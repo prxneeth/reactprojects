@@ -13,6 +13,7 @@ import menus from "./menuTree/data";
 import QRgenerator from "./qrcode/QRgenerator";
 import Darkmode from "./darkMode/Darkmode";
 import IndicatorScroll from "./scroll_Indicator/IndicatorScroll";
+import TabsTests from "./tabs/TabsTests";
 
 function App() {
   return (
@@ -21,11 +22,12 @@ function App() {
       <RandomBg />
       <Star />
       <Imageslider />
-      <LoadProds /> */}
-      {/* <Menu menus={menus} /> */}
-      {/* <QRgenerator /> */}
-      {/* <Darkmode /> */}
-      <IndicatorScroll urll={"https://dummyjson.com/products?limit=100"} />
+      <LoadProds />
+      <Menu menus={menus} />
+      <QRgenerator />
+      <Darkmode />
+      <IndicatorScroll urll={"https://dummyjson.com/products?limit=100"} /> */}
+      <TabsTests />
     </>
   );
 }
