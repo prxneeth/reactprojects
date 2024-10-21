@@ -15,7 +15,7 @@ const GitProfileFetch = () => {
   }
 
   return (
-    <div>
+    <div className="text-center bg-slate-400 p-4">
       <h2>gitgit</h2>
       <input type="text" onChange={(e) => setUserd(e.target.value)} />
       <button onClick={handleClick}>search</button>

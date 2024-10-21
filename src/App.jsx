@@ -16,6 +16,7 @@ import IndicatorScroll from "./scroll_Indicator/IndicatorScroll";
 import TabsTests from "./tabs/TabsTests";
 import ModalTest from "./modalPopUp/ModalTest";
 import GitProfileFetch from "./githubProfile/GitProfileFetch";
+import AutoSuggest from "./autoSuggestions/AutoSuggest";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       <IndicatorScroll urll={"https://dummyjson.com/products?limit=100"} />
       <ModalTest />
       <TabsTests /> */}
-      <GitProfileFetch />
+      {/* <GitProfileFetch /> */}
+      <AutoSuggest />
     </>
   );
 }
