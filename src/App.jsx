@@ -14,6 +14,7 @@ import QRgenerator from "./qrcode/QRgenerator";
 import Darkmode from "./darkMode/Darkmode";
 import IndicatorScroll from "./scroll_Indicator/IndicatorScroll";
 import TabsTests from "./tabs/TabsTests";
+import ModalTest from "./modalPopUp/ModalTest";
 
 function App() {
   return (
@@ -26,8 +27,9 @@ function App() {
       <Menu menus={menus} />
       <QRgenerator />
       <Darkmode />
-      <IndicatorScroll urll={"https://dummyjson.com/products?limit=100"} /> */}
-      <TabsTests />
+      <IndicatorScroll urll={"https://dummyjson.com/products?limit=100"} />
+      <ModalTest />
+      <TabsTests /> */}
     </>
   );
 }
