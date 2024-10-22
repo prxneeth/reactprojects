@@ -17,6 +17,8 @@ import TabsTests from "./tabs/TabsTests";
 import ModalTest from "./modalPopUp/ModalTest";
 import GitProfileFetch from "./githubProfile/GitProfileFetch";
 import AutoSuggest from "./autoSuggestions/AutoSuggest";
+import TicTacToe from "./tictactoe/TicTacToe";
+import GitFinder from "./githubProfile/GitProfileFetch";
 
 function App() {
   return (
@@ -31,9 +33,11 @@ function App() {
       <Darkmode />
       <IndicatorScroll urll={"https://dummyjson.com/products?limit=100"} />
       <ModalTest />
-      <TabsTests /> */}
-      {/* <GitProfileFetch /> */}
-      <AutoSuggest />
+      <TabsTests />
+      <GitProfileFetch />
+      <AutoSuggest /> */}
+
+      <TicTacToe />
     </>
   );
 }

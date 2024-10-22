@@ -8,7 +8,7 @@ const Tabs = ({ tabsContent }) => {
   }
 
   return (
-    <div className=" bg-blue-400 p-4 mt-7">
+    <div className=" bg-purple-400 p-4 mt-7">
       <div className="flex justify-center gap-3">
         {tabsContent.map((tabItem, index) => (
           <div
