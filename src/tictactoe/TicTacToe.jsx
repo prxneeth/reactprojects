@@ -54,7 +54,7 @@ const TicTacToe = () => {
   }
 
   return (
-    <div>
+    <div className="mt-10">
       <div className="flex justify-center ">
         <div className="grid grid-cols-3 w-72 h-72 ">
           {array.map((value, i) => (

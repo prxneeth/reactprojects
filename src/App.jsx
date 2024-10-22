@@ -19,6 +19,8 @@ import GitProfileFetch from "./githubProfile/GitProfileFetch";
 import AutoSuggest from "./autoSuggestions/AutoSuggest";
 import TicTacToe from "./tictactoe/TicTacToe";
 import GitFinder from "./githubProfile/GitProfileFetch";
+import FeatureFlagGlobalContext from "./featureFlag/context/Context";
+import FeatureToggle from "./featureFlag/FeatureToggle";
 
 function App() {
   return (
@@ -35,9 +37,11 @@ function App() {
       <ModalTest />
       <TabsTests />
       <GitProfileFetch />
-      <AutoSuggest /> */}
-
-      <TicTacToe />
+      <AutoSuggest />
+      <TicTacToe /> */}
+      <FeatureFlagGlobalContext>
+        <FeatureToggle />
+      </FeatureFlagGlobalContext>
     </>
   );
 }

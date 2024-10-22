@@ -23,8 +23,8 @@ const AutoSuggest = () => {
     const query = event.target.value.toLowerCase();
     setNames(query);
     if (query.length > 1) {
-      const filtered = user.filter(
-        (item) => item.firstName.toLowerCase().indexOf(query) > -1
+      const filtered = user.filter((item) =>
+        item.firstName.toLowerCase().includes(query)
       );
       setFilter(filtered);
       setDisplay(true);
@@ -55,7 +55,7 @@ const AutoSuggest = () => {
           return (
             <span className="cursor-pointer" key={f.id} onClick={handleClick}>
               {f.firstName}
-              <br />{" "}
+              <br />
             </span>
           );
         })}
