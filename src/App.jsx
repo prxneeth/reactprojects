@@ -24,6 +24,7 @@ import FeatureToggle from "./featureFlag/FeatureToggle";
 import TestFetch from "./customFetch/TestFetch";
 import OutsideClickTest from "./customUseOutsideClick/OutsideClickTest";
 import WindowSizeTest from "./windowResizeHook/WindowSizeTest";
+import TopBottomScroll from "./scrollTopBottom/TopBottomScroll";
 
 function App() {
   return (
@@ -47,7 +48,8 @@ function App() {
       </FeatureFlagGlobalContext> */}
       {/* <TestFetch /> */}
       {/* <OutsideClickTest /> */}
-      <WindowSizeTest />
+      {/* <WindowSizeTest /> */}
+      <TopBottomScroll />
     </>
   );
 }

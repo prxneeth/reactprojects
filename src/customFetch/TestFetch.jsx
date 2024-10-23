@@ -3,11 +3,11 @@ import useFetch from "./useFetch";
 
 const TestFetch = () => {
   const { data, loading, error } = useFetch(
-    "https://dummyjson.com/products",
+    "https://dummyjson.com/products?limit=100",
     {}
   );
 
-  console.log("Data:", data); // Log data to check structure
+  // console.log("Data:", data);
 
   return (
     <div className="text-center">
