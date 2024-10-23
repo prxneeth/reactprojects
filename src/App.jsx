@@ -21,6 +21,7 @@ import TicTacToe from "./tictactoe/TicTacToe";
 import GitFinder from "./githubProfile/GitProfileFetch";
 import FeatureFlagGlobalContext from "./featureFlag/context/Context";
 import FeatureToggle from "./featureFlag/FeatureToggle";
+import TestFetch from "./customFetch/TestFetch";
 
 function App() {
   return (
@@ -29,9 +30,9 @@ function App() {
       <RandomBg />
       <Star />
       <Imageslider />
-      <LoadProds />
-      <Menu menus={menus} />
-      <QRgenerator />
+      <LoadProds /> */}
+      {/* <Menu menus={menus} /> */}
+      {/* <QRgenerator />
       <Darkmode />
       <IndicatorScroll urll={"https://dummyjson.com/products?limit=100"} />
       <ModalTest />
@@ -39,9 +40,10 @@ function App() {
       <GitProfileFetch />
       <AutoSuggest />
       <TicTacToe /> */}
-      <FeatureFlagGlobalContext>
+      {/* <FeatureFlagGlobalContext>
         <FeatureToggle />
-      </FeatureFlagGlobalContext>
+      </FeatureFlagGlobalContext> */}
+      <TestFetch />
     </>
   );
 }
