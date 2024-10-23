@@ -22,6 +22,8 @@ import GitFinder from "./githubProfile/GitProfileFetch";
 import FeatureFlagGlobalContext from "./featureFlag/context/Context";
 import FeatureToggle from "./featureFlag/FeatureToggle";
 import TestFetch from "./customFetch/TestFetch";
+import OutsideClickTest from "./customUseOutsideClick/OutsideClickTest";
+import WindowSizeTest from "./windowResizeHook/WindowSizeTest";
 
 function App() {
   return (
@@ -43,7 +45,9 @@ function App() {
       {/* <FeatureFlagGlobalContext>
         <FeatureToggle />
       </FeatureFlagGlobalContext> */}
-      <TestFetch />
+      {/* <TestFetch /> */}
+      {/* <OutsideClickTest /> */}
+      <WindowSizeTest />
     </>
   );
 }
