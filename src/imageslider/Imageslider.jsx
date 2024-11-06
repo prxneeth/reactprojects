@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft";
 import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
-
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import CircleIcon from "@mui/icons-material/Circle";
 
 const Imageslider = () => {

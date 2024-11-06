@@ -25,15 +25,17 @@ import TestFetch from "./customFetch/TestFetch";
 import OutsideClickTest from "./customUseOutsideClick/OutsideClickTest";
 import WindowSizeTest from "./windowResizeHook/WindowSizeTest";
 import TopBottomScroll from "./scrollTopBottom/TopBottomScroll";
+import ImageSlider from "./imageslider/Slides";
 
 function App() {
   return (
     <>
       {/* <Accordian />
       <RandomBg />
-      <Star />
+      <Star /> */}
       <Imageslider />
-      <LoadProds /> */}
+      <ImageSlider />
+      {/* <LoadProds /> */}
       {/* <Menu menus={menus} /> */}
       {/* <QRgenerator />
       <Darkmode />
@@ -49,7 +51,7 @@ function App() {
       {/* <TestFetch /> */}
       {/* <OutsideClickTest /> */}
       {/* <WindowSizeTest /> */}
-      <TopBottomScroll />
+      {/* <TopBottomScroll /> */}
     </>
   );
 }
